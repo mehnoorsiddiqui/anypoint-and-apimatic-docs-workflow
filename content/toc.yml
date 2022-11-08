@@ -1,0 +1,11 @@
+toc:
+  - group: Getting Started
+    items:
+      - generate: How to Get Started
+        from: getting-started
+  - group: Guides
+    dir: guides
+  - generate: API Endpoints
+    from: endpoints
+  - generate: Models
+    from: models
