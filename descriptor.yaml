@@ -1,0 +1,8 @@
+#%Catalog Descriptor 1.0
+projects:
+  - main: spec\Apimatic-Calculator.json
+    assetId: apimatic-calculator-test
+    version: 2.3.0
+    apiVersion: v2
+    documentation:
+      Home: content/guides/guide1.md 

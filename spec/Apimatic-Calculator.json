@@ -2,7 +2,7 @@
   "openapi": "3.0.0",
   "info": {
     "title": "APIMATIC Calculator-test",
-    "description": "Simple calculator API hosted on APIMATIC for demo purposes",
+    "description": "Simple calculator API hosted on APIMATIC for demo purpose",
     "contact": {},
     "version": "2.3"
   },
