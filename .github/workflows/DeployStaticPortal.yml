@@ -52,7 +52,6 @@ jobs:
   
     - name: Install api-catalog cli
       run: |
-        # sudo apt-get update
         npm install -g api-catalog-cli@latest
         
     - name: Publish API to Anypoint
