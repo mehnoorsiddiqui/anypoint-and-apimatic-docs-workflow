@@ -1,6 +1,6 @@
 #%Catalog Descriptor 1.0
 projects:
-  - main: spec\Apimatic-Calculator.json
+  - main: spec/Apimatic-Calculator.json
     assetId: apimatic-calculator-test
     version: 2.3.0
     apiVersion: v2
