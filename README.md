@@ -1,4 +1,4 @@
-This repository demonstrates how APIMatic's [portal generation API](https://portal-api-docs.apimatic.io/#/http/generating-api-portal/build-file-reference) can be used to automate the generation of Developer Portals via CI/CD.
+This repository demonstrates how APIMatic's [portal generation API](https://portal-api-docs.apimatic.io/#/http/generating-api-portal/build-file-reference) and Anypoint's [autocataloging CLI] (https://docs.mulesoft.com/exchange/apicat-about-api-catalog-cli) can be used to automate the generation of Developer Portals via CI/CD.
 
 ## APIMatic Portal Generation API   
   
@@ -29,6 +29,24 @@ In addition to the above directory structure, the following constraints are also
 - APIMatic expects a file with name ending with APIMATIC-BUILD.json file in the root directory. For details on the contents of this file, check out our [documentation](https://portal-api-docs.apimatic.io/#/http/generating-api-portal/build-file). 
 - The spec folder must contain at least one API specification. This can be in any of the API specification formats supported by APIMatic.
 - content and static directories can be skipped if you do not have custom content or static files.
+
+# Anypoint's Autocataloging CLI
+The  Autocataloging CLI allows you to automatically trigger the publishing of your API assets to Exchange using CI/CD pipeline or custom scripts without the need to manually maintain the your documentation and API definitions.
+
+The Autocataloging CLI demands for a `descriptor file` having the metadata of the API needs to be published.
+
+The descriptor file expects metadata to be in the following YAML format.
+```
+#%Catalog Descriptor 1.0
+projects:
+  - main: spec/Apimatic-Calculator.json
+    assetId: apimatic-calculator-test
+    version: 2.3.0
+    apiVersion: v2
+    documentation:
+      Home: content/guides/guide1.md 
+      Guide: content/guides/guide2.md 
+```
 
 ## Automation
 
