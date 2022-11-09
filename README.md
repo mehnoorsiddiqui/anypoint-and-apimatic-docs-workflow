@@ -66,7 +66,7 @@ Once triggered, the contents of this repository are zipped and sent to the Porta
 
 First off you need to [generate an API KEY](https://portal-api-docs.apimatic.io/#/http/generating-api-portal/auth-keys).
 
-### Try using API Client  
+### Try using API Client and IDE
   
   
 If you just want to quickly test out the API, zip the contents of this repository and use your favourite API Client to make an API call to the Portal Generation Endpoint :
@@ -80,7 +80,8 @@ curl -X POST \
 
 You can deploy the response to any web server to view the sample Documentation Portal.
 
-For trying the Autocatalog CLI you need to download the LTS version of node and install the [CLI](https://docs.mulesoft.com/exchange/apicat-install-api-catalog-cli)
+For trying out the Autocatalog CLI you need to download the LTS version of node and install the [CLI](https://docs.mulesoft.com/exchange/apicat-install-api-catalog-cli)
+
 - Open the API spec in VS code or in any IDE you love.
 - Create a `descriptor file` manually or using the [CLI](https://docs.mulesoft.com/exchange/apicat-create-descriptor-file-cli)
 - Add the SDK links form the above published developer portal 
