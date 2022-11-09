@@ -81,17 +81,17 @@ curl -X POST \
 You can deploy the response to any web server to view the sample Documentation Portal.
 
 For trying the Autocatalog CLI you need to download the LTS version of node and install the [CLI](https://docs.mulesoft.com/exchange/apicat-install-api-catalog-cli)
-Open the API spec in VS code or in any IDE you like.
-Create a `descriptor file` manually or using the [CLI](https://docs.mulesoft.com/exchange/apicat-create-descriptor-file-cli)
-Add the SDK links form the above published developer portal 
-Enable API Catalog Contributor from access management of your Anypoint account.
-Replace the variables with their respective values and run the following command in your terminal to publish the API:
+- Open the API spec in VS code or in any IDE you love.
+- Create a `descriptor file` manually or using the [CLI](https://docs.mulesoft.com/exchange/apicat-create-descriptor-file-cli)
+- Add the SDK links form the above published developer portal 
+- Enable API Catalog Contributor from access management of your Anypoint account.
+- Replace the variables with their respective values and run the following command in your terminal to publish the API:
 
 ```
 api-catalog publish-asset -d descriptor.yaml --organization="$ANYPOINT_ORG_ID" --username="$ANYPOINT_USERNAME" --password="$ANYPOINT_PASSWORD" --force-update-metadata
 ```
 
-Ohhh but this seems too long and boring :). Try the time saver - Github Actions workflow 
+Ohhh but this seems too long and boring :( Try the time saver - Github Actions workflow 
 
 ### Try using GitHub Actions
 
