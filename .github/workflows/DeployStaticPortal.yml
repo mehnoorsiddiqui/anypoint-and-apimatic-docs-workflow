@@ -61,4 +61,4 @@ jobs:
         CATALOG_DESCRIPTOR: './descriptor.yaml' 
         ANYPOINT_ORG_ID: '40727b83-9e12-4bf9-bff5-3c5b31d0d7b4'
       run: |
-        api-catalog publish-asset -d $CATALOG_DESCRIPTOR --organization="$ANYPOINT_ORG_ID" --username="$ANYPOINT_USERNAME" --password="$ANYPOINT_PASSWORD" --force-publish
+        api-catalog publish-asset -d $CATALOG_DESCRIPTOR --organization="$ANYPOINT_ORG_ID" --username="$ANYPOINT_USERNAME" --password="$ANYPOINT_PASSWORD" --force-update-metadata
