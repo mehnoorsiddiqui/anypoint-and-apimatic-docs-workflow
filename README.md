@@ -84,7 +84,7 @@ For trying out the Autocatalog CLI you need to download the LTS version of node 
 
 - Open the API spec in VS code or in any IDE you love.
 - Create a `descriptor file` manually or using the [CLI](https://docs.mulesoft.com/exchange/apicat-create-descriptor-file-cli)
-- Add the SDK links form the above published developer portal 
+- Add the SDK links from the above published developer portal 
 - Enable API Catalog Contributor from access management of your Anypoint account.
 - Replace the variables with their respective values and run the following command in your terminal to publish the API:
 
@@ -105,8 +105,7 @@ If you want to try out the entire GitHub workflow, you will need to do the follo
     - API_KEY for your APIMatic API Key
     - NETLIFY_AUTH_TOKEN for your Netlify API Key
     - NETLIFY_SITE_ID for the Site ID of the website you created in step 2 
-    - ANYPOINT_USERNAME of your Anypoint account
-    - ANYPOINT_PASSWORD of your Anypoint account
+    - ANYPOINT_USERNAME ,ANYPOINT_PASSWORD and ANYPOINT_ORG_ID of your Anypoint account
 4. Trigger the 'Deploy Static Portal' workflow
 
 Once the workflow completes, your portal should be deployed to Netlify and Anypoint Exchange.
