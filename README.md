@@ -1,4 +1,4 @@
-This repository demonstrates how APIMatic's [portal generation API](https://portal-api-docs.apimatic.io/#/http/generating-api-portal/build-file-reference) and Anypoint's [autocataloging CLI](https://docs.mulesoft.com/exchange/apicat-about-api-catalog-cli) can be used to automate the generation of Developer Portals via CI/CD.
+This repository demonstrates how APIMatic's [portal generation API](https://portal-api-docs.apimatic.io/#/http/generating-api-portal/build-file-reference) and Anypoint's [autocataloging CLI](https://docs.mulesoft.com/exchange/apicat-about-api-catalog-cli) can be used to automate the generation of Developer portals along with the production ready SDKs for your Anypoint Exchange assets via CI/CD.
 
 ## APIMatic Portal Generation API   
   
