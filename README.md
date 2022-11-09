@@ -1,4 +1,4 @@
-This repository demonstrates how APIMatic's [portal generation API](https://portal-api-docs.apimatic.io/#/http/generating-api-portal/build-file-reference) and Anypoint's [autocataloging CLI] (https://docs.mulesoft.com/exchange/apicat-about-api-catalog-cli) can be used to automate the generation of Developer Portals via CI/CD.
+This repository demonstrates how APIMatic's [portal generation API](https://portal-api-docs.apimatic.io/#/http/generating-api-portal/build-file-reference) and Anypoint's [autocataloging CLI](https://docs.mulesoft.com/exchange/apicat-about-api-catalog-cli) can be used to automate the generation of Developer Portals via CI/CD.
 
 ## APIMatic Portal Generation API   
   
@@ -31,11 +31,11 @@ In addition to the above directory structure, the following constraints are also
 - content and static directories can be skipped if you do not have custom content or static files.
 
 # Anypoint's Autocataloging CLI
-The  Autocataloging CLI allows you to automatically trigger the publishing of your API assets to Exchange using CI/CD pipeline or custom scripts without the need to manually maintain the your documentation and API definitions.
+The  Autocataloging CLI allows you to automatically trigger the publishing of your API assets to Exchange using CI/CD pipeline or custom scripts without the need to manually maintain the documentation for the API definitions.
 
-The Autocataloging CLI demands for a `descriptor file` having the metadata of the API needs to be published.
+The Autocataloging CLI demands for a [descriptor file](https://docs.mulesoft.com/exchange/apicat-about-api-catalog-cli#apicat-descriptor-file) containing the metadata of the API needs to be published.
 
-The descriptor file expects metadata to be in the following YAML format.
+The `descriptor file` expects metadata to be in the following YAML format.
 ```
 #%Catalog Descriptor 1.0
 projects:
