@@ -82,7 +82,7 @@ You can deploy the response to any web server to view the sample Documentation P
 
 For trying out the Autocatalog CLI you need to download the LTS version of node and install the [CLI](https://docs.mulesoft.com/exchange/apicat-install-api-catalog-cli)
 
-- Open the API spec in VS code or in any IDE you love.
+- Open the API spec in Visual Studio Code or any other related IDE.
 - Create a `descriptor file` manually or using the [CLI](https://docs.mulesoft.com/exchange/apicat-create-descriptor-file-cli)
 - Add the SDK links to documentation pages of the API from the above published developer portal 
 - Enable API Catalog Contributor from access management of your Anypoint account.
