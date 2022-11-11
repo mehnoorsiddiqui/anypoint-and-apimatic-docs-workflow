@@ -31,7 +31,7 @@ In addition to the above directory structure, the following constraints are also
 - content and static directories can be skipped if you do not have custom content or static files.
 
 # Anypoint's Autocataloging CLI
-The  Autocataloging CLI allows you to automatically trigger the publishing of your API assets to Exchange using CI/CD pipeline or custom scripts without the need to manually maintain the documentation for the API definitions.
+The  [Autocataloging CLI](https://docs.mulesoft.com/exchange/apicat-about-api-catalog-cli) allows you to automatically trigger the publishing of your API assets to Exchange using CI/CD pipeline or custom scripts without the need to manually maintain the documentation for the API definitions.
 
 The Autocataloging CLI demands for a [descriptor file](https://docs.mulesoft.com/exchange/apicat-about-api-catalog-cli#apicat-descriptor-file) containing the metadata of the API needs to be published.
 
