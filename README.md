@@ -44,8 +44,8 @@ projects:
     version: 2.3.0
     apiVersion: v2
     documentation:
-      Home: content/guides/guide1.md 
-      Guide: content/guides/guide2.md 
+      Home: anypoint-content/guides/guide1.md 
+      Guide: anypoint-content/guides/guide2.md 
 ```
 
 ## Automation
