@@ -56,6 +56,6 @@ jobs:
         ANYPOINT_USERNAME: ${{ secrets.ANYPOINT_USERNAME }} 
         ANYPOINT_PASSWORD: ${{ secrets.ANYPOINT_PASSWORD }}
         CATALOG_DESCRIPTOR: './descriptor.yaml' 
-        ANYPOINT_ORG_ID: '40727b83-9e12-4bf9-bff5-3c5b31d0d7b4'
+        ANYPOINT_ORG_ID: ${{ secrets.ANYPOINT_ORG_ID }}
       run: |
         api-catalog publish-asset -d $CATALOG_DESCRIPTOR --organization="$ANYPOINT_ORG_ID" --username="$ANYPOINT_USERNAME" --password="$ANYPOINT_PASSWORD" --force-update-metadata
